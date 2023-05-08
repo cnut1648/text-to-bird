@@ -1,0 +1,12 @@
+# torch==2.0.0
+# torchvision==0.14.1
+accelerate
+transformers>=4.25.1
+tensorboard
+diffusers
+wandb
+torchmetrics[image]
+datasets
+einops
+tqdm
+xformers

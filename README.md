@@ -5,7 +5,7 @@ Course project for Harvard AC209B, do diffusion models dream of birds?
 
 Simply install the python package:
 ```shell
-pip install -e requirements.txt
+pip install -r requirements.txt
 ```
 Note that our code is tested using `torch` 2.0.0 and `diffusers` 0.16.1.
 

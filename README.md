@@ -37,8 +37,11 @@ In this project we use stable diffusion.
 
 The architecture is as follows:
 
-![Arch](./imgs/stable_diffusion.png)
+<p align="center">
+  <img src="./imgs/stable_diffusion.png" alt="Diffusion Arch"/>
+</p>
 
+    
 - Given a latent Gaussian noise and a user textual prompt that undergoes CLIP text encoder.
 
 - We input both latent noise and textual embedding onto a UNet to generate latent variable that is conditioned on text.
@@ -110,11 +113,13 @@ In each of the following images,
 (1) first row shows baseline coarse model output v.s. our finetuned coarse model output;
 (2) second row shows baseline fine model output v.s. our finetuned fine model output;
 (3) last row shows our finetuned coarse model output v.s. our finetuned fine model output.
-![comparison1](./imgs/comparison_result1.png)
-![comparison2](./imgs/comparison_result2.png)
-![comparison3](./imgs/comparison_result3.png)
-![comparison4](./imgs/comparison_result4.png)
-![comparison5](./imgs/comparison_result5.png)
+
+<p align="center">
+  <img src="./imgs/comparison_result1.png" alt="Results"/>
+  <img src="./imgs/comparison_result2.png" alt="Results"/>
+  <img src="./imgs/comparison_result3.png" alt="Results"/>
+  <img src="./imgs/comparison_result4.png" alt="Results"/>
+</p>
 
 We observe that
 
